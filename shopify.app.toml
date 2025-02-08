@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "ff6e1376e25383b09d519b2398a5ec9d"
+application_url = "https://download-fans-crucial-repeat.trycloudflare.com"
+embedded = true
+name = "boa-home-task-SI"
+handle = "boa-home-task-si"
+
+[build]
+include_config_on_deploy = true
+dev_store_url = "home-assignment-263.myshopify.com"
+automatically_update_urls_on_dev = true
+
+[webhooks]
+api_version = "2025-01"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://download-fans-crucial-repeat.trycloudflare.com/auth/callback",
+  "https://download-fans-crucial-repeat.trycloudflare.com/auth/shopify/callback",
+  "https://download-fans-crucial-repeat.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = false
