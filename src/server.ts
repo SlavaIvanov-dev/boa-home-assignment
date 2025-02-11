@@ -99,7 +99,6 @@ app.get("/api/cart/load", (req: Request, res: Response) => {
     });
 });
 
-// Start Server
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
