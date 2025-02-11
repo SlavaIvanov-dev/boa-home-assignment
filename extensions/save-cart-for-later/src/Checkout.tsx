@@ -5,7 +5,7 @@ import {
   useCartLines,
   Checkbox, Text, useCustomer, Button,
 } from "@shopify/ui-extensions-react/checkout";
-import {useEffect, useRef, useState} from "react";
+import {useEffect, useState} from "react";
 
 interface SelectedProduct {
   id: string;

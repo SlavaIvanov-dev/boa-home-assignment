@@ -66,7 +66,6 @@ app.post("/api/cart/save", async (req: Request, res: Response) => {
             return res.send("Cart cleared.");
         }
 
-        // Insert new selected items
         const values = selectedProducts.map(product => [customerId, product.id, product.title, product.selected ? 1 : 0]);
 
         const sql = "INSERT INTO customer_cart (customer_id, product_id, product_title, is_selected) VALUES ?";
