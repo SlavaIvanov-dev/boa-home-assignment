@@ -11,13 +11,28 @@
   },
   "dependencies": {
     "@shopify/app": "^3.58.2",
-    "@shopify/cli": "^3.70.0",
+    "@shopify/cli": "^3.75.0",
     "@shopify/ui-extensions": "2024.10.1",
-    "@shopify/ui-extensions-react": "2024.10.1",
+    "@shopify/ui-extensions-react": "^2024.10.1",
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1",
     "react": "^18.3.1"
   },
   "author": "BOA Ideas",
   "overrides": {
     "@types/react": "17.0.30"
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/body-parser": "^1.19.5",
+    "@types/cookie-parser": "^1.4.8",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0"
   }
 }

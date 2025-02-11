@@ -4,3 +4,4 @@ shopify.app.*.toml
 .env
 dist/
 .DS_Store
+.shopify
